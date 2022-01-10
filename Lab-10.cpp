@@ -30,7 +30,9 @@ int main()
     setlocale(LC_ALL, "Russian");
     int amount;
     ofstream file("log.txt", ios_base::app);
-
+    srand(time(NULL));
+    
+    //ввод количества бочек
     while (true)
     {
         date_time();
